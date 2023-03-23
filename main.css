@@ -62,12 +62,14 @@ body {
   }
   
   /* Thin out the marketing headings */
-  .featurette-heading {
-    font-weight: 300;
-    line-height: 1;
-    /* rtl:remove */
+  .featurette-heading {.ref::before {
+    font-weight:300;
+    line-height:1;
     letter-spacing: -.05rem;
+    content: "Characters ";
   }
+    
+  
   
   
   /* RESPONSIVE CSS
