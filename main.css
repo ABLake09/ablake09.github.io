@@ -93,3 +93,21 @@ body {
       margin-top: 7rem;
     }
   }
+
+  @font-face {
+    font-family: font1;
+    src: url(KOMIKAX_.ttf);
+  }
+
+  .font1 {
+    font-family: font1;
+  }
+
+  @font-face {
+    font-family: titlefont;
+    src: url(DOCALLISME\ ON\ STREET.ttf);
+  }
+
+  .titlefont {
+    font-family: titlefont;
+  }

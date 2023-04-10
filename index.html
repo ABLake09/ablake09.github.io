@@ -49,8 +49,25 @@
     .book {
       font-family: book;
     }
-  </style>
 
+    @font-face {
+      font-family: font1;
+      src: url(KOMIKAX_.ttf);
+    }
+
+    .font1 {
+      font-family: font1;
+    }
+
+    @font-face {
+      font-family: titlefont;
+      src: url(DOCALLISME\ ON\ STREET.ttf);
+    }
+
+    .titlefont {
+      font-family: titlefont;
+    }
+  </style>
 
   <!-- Custom styles for this template -->
   <link href="main.css" rel="stylesheet">
@@ -61,7 +78,7 @@
   <header>
     <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
       <div class="container-fluid">
-        <a class="navbar-brand" href="#">The Adventures of Pencil Dude</a>
+        <a class="navbar-brand font1" href="#">The Adventures of Pencil Dude</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse"
           aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -69,7 +86,7 @@
         <div class="collapse navbar-collapse" id="navbarCollapse">
           <ul class="navbar-nav me-auto mb-2 mb-md-0">
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">Home</a>
+              <a class="nav-link active font1" aria-current="page" href="index.html">Home</a>
             </li>
             <li class="nav-item">
             </li>
@@ -85,8 +102,7 @@
   </header>
 
   <main>
-
-    <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
+    <div id="myCarousel" class="carousel slide" data-bs-ride="carousel" data-interval="false">
       <div class="carousel-indicators">
         <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-current="true"
           aria-label="Slide 1"></button>
@@ -94,29 +110,18 @@
         <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
       </div>
       <div class="carousel-inner book">
-        <div class="carousel-item active" style="background-color: aquamarine;">
-          <!-- <div style="background-color: aquamarine;">
-            <div class="p-5">
-              <center>
-                <div class="book">
-                  <h1>Its Time for Adventure!</h1>
-                </div>
-            </div>
-            </center>
-          </div>
-        </div> -->
+        <div class="carousel-item active" style="background-color: rgb(231, 213, 49);">
         <div class="container">
-          <div class="carousel-caption text-start">
-            <h1>Its Time for Adventure!</h1>
+          <div class="carousel-caption titlefont">
+            <h1 style="color: black; font-size: 100px;">The Adventures of Pencil Dude</h1>
           </div>
         </div>
       </div>
-      <div class="carousel-item" style="background-color: rgb(234, 127, 255);">
-       
+      <div class="carousel-item" style="background-color: rgb(231, 213, 49);">
 
         <div class="container">
-          <div class="carousel-caption">
-            <h1>Games</h1>
+          <div class="carousel-caption font1">
+            <h1 style="font-size: 65px;">Streaming on Disney+</h1><br/><h1 style="font-size: 55px;">Coming Summer 2023!</h1>
           </div>
         </div>
       </div>
@@ -159,7 +164,7 @@
 
 
           <img src="Screenshot 2023-04-01 3.05.11 PM.png" height="105">
-          <h2><a href="index.html">Characters</a></h2>
+          <h2><a href="Characters.html">Characters</a></h2>
           <p>All the characters shown in the TV series "The Adventures of Pencil Dude".</p>
         </div><!-- /.col-lg-4 -->
         <div class="col-lg-4">
